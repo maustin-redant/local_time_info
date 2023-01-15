@@ -4,8 +4,8 @@ Modifications to NCS API's to access local time info from Current Time Service
 To update your version of NCS with API's to enable you to access the Local Time information from the BLE Current Time Service:
 1. Copy the two .patch files into the /nrf directory of your NCS install directory e.g. ncs/v2.x.x/nrf
 2. Navigate to the /nrf directory and apply the patches using GitBash:
-    a.	$ git apply cts_client_c.patch
-    b.	$ git apply cts_client_h.patch
+    $ git apply cts_client_c.patch
+    $ git apply cts_client_h.patch
 
 This will update the cts_client.c and cts_client.h with modified API's.
 
